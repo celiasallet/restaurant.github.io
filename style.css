@@ -1,0 +1,16 @@
+
+html {
+
+    display: inline;
+    justify-content: center;
+    margin: 10px 10% 10% 10%;
+    width: 80%;
+}
+
+/* .container { 
+    margin: 10px;
+} */
+
+* {
+    text-align: center;
+}
