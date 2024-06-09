@@ -3,21 +3,26 @@ html {
     background-color: white;
     display: inline;
     justify-content: center;
-    margin: 0px 5% 5% 5%;
     width: auto;
 }
 body .image {
     background-image: url(images/bg.jpeg);
+    margin: 0 2%;
 }
 
 * {
     text-align: center;
     font-family: "Manrope", sans-serif;
+
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: auto;
     font-style: normal;
 }
 
 ul li {
     text-align: left;
+}
+
+* .jumbotron {
+    font-weight: 500 !important;
 }
