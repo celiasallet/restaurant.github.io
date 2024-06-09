@@ -6,17 +6,16 @@ html {
     margin: 0px 5% 5% 5%;
     width: auto;
 }
-.image {
-    background-image: url(images/bg7.jpeg);
-    
+body .image {
+    background-image: url(images/bg.jpeg);
 }
-
-/* .container { 
-    margin: 10px;
-} */
 
 * {
     text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 ul li {
