@@ -1,9 +1,9 @@
-
-
 @font-face {
     font-family: 'varesha';
-    src: url(Varesha.otf);
-  }
+    font-style: normal;
+    font-weight: normal;
+    src: local('varesha'), url('Varesha.woff') format('woff');
+    }
 
 html {
     background-color: white;
@@ -12,27 +12,38 @@ html {
     width: auto;
 }
 body .image {
-    background-image: url(images/bg.jpeg);
+    /background-image: url(images/bg.jpeg);
     margin: 0 2%;
 }
 
- nav a .navbar-brand {
+ nav .navbar-brand {
+    font-size: 2rem;
     font-family: 'varesha' !important;
 }
 
 * {
     text-align: center;
-    font-family: "Manrope", sans-serif;
-
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
 }
+div {
+    font-family: "manrope", sans-serif;
+    font-weight: 100;
 
+}
 ul li {
     text-align: left;
 }
 
 * .jumbotron {
     font-weight: 500 !important;
+}
+
+.bg-info {
+    background-color: black !important;
+}
+
+.border-info {
+    border-color: #002eff !important;
 }
