@@ -11,10 +11,6 @@ html {
     justify-content: center;
     width: auto;
 }
-body .image {
-    /background-image: url(images/bg.jpeg);
-    margin: 0 2%;
-}
 
  nav .navbar-brand {
     font-size: 2rem;
