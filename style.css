@@ -1,4 +1,10 @@
 
+
+@font-face {
+    font-family: 'varesha';
+    src: url(Varesha.otf);
+  }
+
 html {
     background-color: white;
     display: inline;
@@ -8,6 +14,10 @@ html {
 body .image {
     background-image: url(images/bg.jpeg);
     margin: 0 2%;
+}
+
+ nav a .navbar-brand {
+    font-family: 'varesha' !important;
 }
 
 * {
